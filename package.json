@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-api",
-  "description": "A Dash blockchain REST and web socket API service for Dashcore Node.",
+  "name": "@swincacoin/insight-api",
+  "description": "A Swi blockchain REST and web socket API service for swicore Node.",
   "version": "1.0.1",
-  "repository": "git://github.com/dashevo/insight-api.git",
+  "repository": "git://github.com/swincacoin/insight-api.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,19 +38,19 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-api/issues"
+    "url": "https://github.com/swincacoin/insight-api/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-api",
+  "homepage": "https://github.com/swincacoin/insight-api",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "dash api",
+    "swi api",
     "blockchain api",
     "json",
-    "bitcore-dash",
-    "dashcore"
+    "bitcore-swi",
+    "swicore"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -59,10 +59,10 @@
     "test": "NODE_ENV=test mocha -R spec --recursive"
   },
   "main": "lib",
-  "dashcoreNode": "lib",
+  "swicoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "@dashevo/dashcore-lib": "^0.15.5",
+    "@swincacoin/swicore-lib": "swincacoin/swicore-lib",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",
